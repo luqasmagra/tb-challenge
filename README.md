@@ -1,4 +1,4 @@
-# Toolbox Code Challenge
+# TB Code Challenge
 
 Full Stack application consisting of a REST API (Node.js + Express) and a Frontend client (React + Bootstrap + Redux).
 
@@ -91,13 +91,6 @@ npm run lint    # Check StandardJS
 ### Global
 
 - [x] Docker / Docker Compose
-
-## API External Reference
-
-The API consumes data from:
-
-- Base URL: `https://echo-serv.tbxnet.com/v1/secret`
-- Auth: `Bearer aSuperSecretKey`
 
 ## Author
 
