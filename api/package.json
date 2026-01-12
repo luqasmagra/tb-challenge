@@ -1,0 +1,33 @@
+{
+  "name": "toolbox-challenge-api",
+  "version": "1.0.0",
+  "description": "API REST for Toolbox Code Challenge",
+  "main": "src/index.js",
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "mocha --recursive test/**/*.test.js",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "node-fetch": "2.7.0"
+  },
+  "devDependencies": {
+    "chai": "4.3.7",
+    "mocha": "10.2.0",
+    "nock": "13.3.8",
+    "sinon": "15.0.0",
+    "standard": "17.1.0"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
